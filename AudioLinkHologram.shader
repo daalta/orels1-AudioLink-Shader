@@ -23,7 +23,7 @@
         [Header(FALLBACK)]
         [ToggleUI]_EnableFallback("Enable Fallback Mode", Float) = 0
         _AudioFallbackTexture("Audio Link Fallback Texture", 2D) = "black" {}
-        [IntRange]_BPM("BPM", Range(70, 180)) = 128
+        [IntRange]_BPM("BPM", Range(40, 180)) = 128
         [IntRange]_Note("Note", Range(1,32)) = 1
     }
 
